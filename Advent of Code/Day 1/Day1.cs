@@ -33,6 +33,10 @@ namespace Advent_of_Code.Day_1
             //Flag
             bool notFound = true;
             int pos = 0;
+
+            //Add the first entry of the list to every subsequent entry until 2020 is found
+            //If there are no matches, add the second entry of the list to every subsequent entry until 2020 is found
+            //So on, and so forth...
             do
             {
                 pos++;
