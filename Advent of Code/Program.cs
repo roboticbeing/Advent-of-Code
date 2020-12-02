@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Advent_of_Code.Day_1;
+using System;
 
 namespace Advent_of_Code
 {
@@ -6,7 +7,8 @@ namespace Advent_of_Code
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Day1 day1 = new Day1();
+            day1.FindSum();
         }
     }
 }
